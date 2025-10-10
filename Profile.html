@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile-style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PLATFORM TECHNOLOGY</h1>
+    </header>
+
+    <div id="main">
+        <div id="center_box">
+            
+            <div id="left">
+                <a href="Personal Portfolio.html">
+                    <img src="Logo/Profile Picture.jpg" alt="Profile Photo">
+                </a>
+                <h2>Kent Jeanne S. De Leon</h2>
+                <p>BSIT 2nd Year Student</p>
+            </div>
+
+            <div id="right">
+                <div>
+                    <h3>Contact Information</h3>
+                    <p class="info"><strong>Email:</strong> lampake@gmail.com</p>
+                    <p class="info"><strong>Mobile:</strong> 0956-139-2248</p>
+                    <p class="info"><strong>Address:</strong> 656 Manuel L. Quezon St. Brgy. Kasoy, Catarman, Samar</p>
+                </div>
+
+                <div>
+                    <h3>Socials</h3>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/Yyngsss/">
+                            <img src="Logo/facebook.png" alt="Facebook">
+                        </a>
+                        
+                        <a href="https://x.com/Yyngsss">
+                            <img src="Logo/X.png" alt="X">
+                        </a>
+                        
+                        <a href="https://www.instagram.com/yyng.ss/">
+                            <img src="Logo/instagram.png" alt="Instagram">
+                        </a>
+                        
+                        <a href="https://github.com/ItsYoyong">
+                            <img src="Logo/Github.png" alt="GitHub">
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <a href="homepage.html">
+                        <button>Home</button>
+                    </a>
+                    
+                    <a href="Project.html">
+                        <button>Project</button>
+                    </a>
+
+                    <a class="btn" href="Login.html" onclick="logout()">
+                        <button>Log Out</button>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function logout() {
+          alert("You have been logged out!");
+          localStorage.clear();
+          
+        }
+      </script>
+
+</body>
+</html>
